@@ -8,18 +8,22 @@
  */
 int main(void)
 {
-	int c = 0;
+	char d = '0';
 
-	while (c < 10)
+	while (d <= '9')
 	{
-		putchar(48 + c);
-		if (c != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(d);
+		d++;
+	}
+
+	char c = 'a';
+
+	while (c <= 'f')
+	{
+		putchar(c);
 		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
