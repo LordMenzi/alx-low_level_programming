@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 /**
  * main entry point
@@ -19,3 +20,22 @@ int main(void)
 	return (0);
 }
 
+=======
+#include "_putchar.h"
+/**
+ * main - prints the string "_putchar" from a character array.
+ * Return: 0 on success.
+ */
+int main(void)
+{
+	char c[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
+	return (0);
+}
+>>>>>>> 43310e954eb6100cec6fce7fe3179c95c9c1e8ea
