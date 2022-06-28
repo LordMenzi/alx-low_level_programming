@@ -1,20 +1,20 @@
 #include "main.h"
+
 /**
- * main - prints _putchar
- *
- * Description: prints _putchar
- *
- * Return: 0 (Success)
+ * main - Program entry point
+ * Description: Prints _putchar
+ * Return: 0
  */
 int main(void)
 {
-	char text[9] = "_putchar";
-	int i = 0;
+	char x[9] = "_putchar";
+	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(text[i]);
+		_putchar(x[i]);
 	}
+
 	_putchar('\n');
 
 	return (0);
